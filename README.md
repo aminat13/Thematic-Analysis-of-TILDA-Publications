@@ -46,11 +46,17 @@ Combine paper-level summaries into broader theme-level syntheses
 The workflow produces outputs such as:
 
 - topic-level Excel sheets
+  Title | Year | Journal | Topics | DOI | Main Author
+  
 - co-occurrence tables
 - weighted topic network graphs
 - thematic communities
 - abstract retrieval tables
+  Title | DOI | Abstract | Abstract_Source | Retrieval_Status
+  Health outcomes in ageing populations | 10.1000/test1 | This study examines... | Crossref | Found
+  
 - theme-level narrative summaries
+  Title | Study Aim | Main Finding | Methods Used | Limitation | Evidence Sentence
 
 ## Methods Used
 
