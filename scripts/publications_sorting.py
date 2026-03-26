@@ -161,7 +161,6 @@ with pd.ExcelWriter("example_topics_output.xlsx", engine="xlsxwriter") as writer
 xls = pd.ExcelFile(r"example_topics_output.xlsx")
 print(xls.sheet_names)
 
-
 #defining functions to receive abstracts
 import requests
 import re
