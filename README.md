@@ -43,20 +43,34 @@ Combine paper-level summaries into broader theme-level syntheses
 
 ## Example Outputs
 
-The workflow produces outputs such as:
+The workflow produces structured outputs such as:
 
-- topic-level Excel sheets
-  Title | Year | Journal | Topics | DOI | Main Author
-  
-- co-occurrence tables
-- weighted topic network graphs
-- thematic communities
-- abstract retrieval tables
-  Title | DOI | Abstract | Abstract_Source | Retrieval_Status
-  Health outcomes in ageing populations | 10.1000/test1 | This study examines... | Crossref | Found
-  
-- theme-level narrative summaries
-  Title | Study Aim | Main Finding | Methods Used | Limitation | Evidence Sentence
+### Topic-level Excel sheets
+
+| Title | Year | Journal | Topics | DOI | Main Author |
+|------|------|---------|--------|-----|-------------|
+| Health outcomes in ageing populations | 2021 | Journal of Ageing | 1 6 8 | 10.1000/test1 | Smith J |
+
+### Co-occurrence tables
+Topic pairs with frequency counts indicating how often topics appear together.
+
+### Weighted topic network graphs
+Visual representations of topic relationships using graph-based methods.
+
+### Thematic communities
+Clusters of related topics identified using community detection.
+
+### Abstract retrieval tables
+
+| Title | DOI | Abstract | Abstract_Source | Retrieval_Status |
+|------|-----|----------|-----------------|------------------|
+| Health outcomes in ageing populations | 10.1000/test1 | This study examines ageing... | Crossref | Found |
+
+### Theme-level narrative summaries
+
+| Title | Study Aim | Main Finding | Methods Used | Limitation | Evidence Sentence |
+|------|-----------|-------------|--------------|------------|-------------------|
+| Health outcomes in ageing populations | To examine ageing... | Health declines with age | Regression analysis | Not stated | "Participants showed..." |
 
 ## Methods Used
 
